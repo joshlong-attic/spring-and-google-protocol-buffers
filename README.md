@@ -27,7 +27,7 @@ You might think that you could just use Java's inbuilt serialization mechanism i
 
 Let's first look at our `.proto` document:
 
-```json
+```proto
 package demo;
 
 option java_package = "demo";
