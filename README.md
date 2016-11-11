@@ -281,3 +281,5 @@ if __name__ == '__main__':
 
 ## Where to go from Here
 If you want _very_ high speed message encoding that works with multiple languages, Protocol Buffers are a compelling option. There are other encoding technologies like [Avro](https://avro.apache.org/) or [Thrift](https://thrift.apache.org/), but none nearly so mature and entrenched as Protocol Buffers. You don't necessarily need to use Protocol Buffers with REST, either. You could plug it into some sort of RPC service, if that's your style. There are almost as many client implementations as there are buildpacks for Cloud Foundry - so you could run almost anything on Cloud Foundry and enjoy the same high speed, consistent messaging across all your services!
+
+[SPR-13589 ProtobufHttpMessageConverter support for protobuf 3.0.0-beta4](https://jira.spring.io/browse/SPR-13589)
